@@ -3,11 +3,12 @@
 
 
 def divisible_by_2(my_list=[]):
+    new_list = []
     x = my_list
     for x in range(len(my_list)):
         if x/2 == 0:
-            return True
+            new_list.append(True)
             print("x is divisible by 2")
         else:
-            return False
+            new_list.append(False)
             print("x is not divisible by 2")
