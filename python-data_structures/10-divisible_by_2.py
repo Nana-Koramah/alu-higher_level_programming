@@ -5,7 +5,7 @@
 def divisible_by_2(my_list=[]):
     x = my_list
     for x in range(len(my_list)):
-        if x/2:
+        if x/2 == 0:
             return True
             print("x is divisible by 2")
         else:
