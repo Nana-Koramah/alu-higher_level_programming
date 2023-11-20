@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines a square with a private instance attritube:size and no type verification"""
+"""Defines a square with a private instance attritube:size"""
 
 
 class Square():
@@ -8,5 +8,4 @@ class Square():
     def __init__(self, size):
         """initialize a new square"""
 
-        self.__size = size
-        
+        self.__size = size        
