@@ -10,7 +10,7 @@ class Rectangle():
         self.height = height
         """initialize a new square"""
 
-     @property
+    @property
     def width(self):
         """retrieve the width of the square"""
 
