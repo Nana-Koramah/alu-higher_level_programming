@@ -1,15 +1,15 @@
 #!/usr/bin/python3
 """
-This is Rectangle module.
-Defines a simple Rectangle class.
+This is the "Rectangle"  module.
+This module provides a simple Rectangle class.
 """
 
 
-class Rectangle():
-    """A class Rectangle with attributes width and height, and methods ar    ea and perimeter.
+class Rectangle:
+    """A Rectangle class with attributes width and height, and
+    methods area and perimiter.
     """
-
-     def __init__(self, width=0, height=0):
+    def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
 
@@ -19,7 +19,7 @@ class Rectangle():
 
     @width.setter
     def width(self, value):
-        if not isinstance(value, int):
+        if type(value) is not int:
             raise TypeError("width must be an integer")
         if value < 0:
             raise ValueError("width must be >= 0")
