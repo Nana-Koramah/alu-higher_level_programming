@@ -1,1 +1,2 @@
-# alu-higher_level_programming
+#!/bin/bash
+#This project is about classes and objects in python.
