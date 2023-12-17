@@ -1,2 +1,2 @@
 #Tests
-Author: Christine 
+Author: Nana-koramah
